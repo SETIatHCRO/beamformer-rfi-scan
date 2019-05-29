@@ -1,0 +1,11 @@
+This is a very first start of the matlab code. Here is the message from Janusz:
+
+Please find attached parts of my matlab code. Note that it wont work as it is currently:
+
+The run_* script should have a proper path/file entries. If it were to be run on tumulus, it should be set to dataDir='/home/obs/jkulpa/rfiScan'; and imagedir path to existing (preferably empty) directory
+
+readRFILogFile.m and atabfsread.m have to be in +ATATools/+IO/ directory
+
+joinBFSSpectra.m have to be in +ATATools/+Calc/ directory
+
+I haven't pushed ATATools package to Git repository yet as it is mostly Billy's repo. Some parts were only published in my simulator code but many files were not attached there
